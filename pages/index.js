@@ -1,16 +1,15 @@
 import NextLink from 'next/link'
-import {Button, Container, Box, Link, Icon, Heading, Image, SimpleGrid, List, ListItem, useColorModeValue} from '@chakra-ui/react'
+import {Button, Container, Box, Link, Icon, Heading, Image,  List, ListItem, useColorModeValue} from '@chakra-ui/react'
 import Section from '../components/section';
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
-import { GridItem } from '../components/grid-item';
+
 import {
     IoLogoTwitch,
     IoLogoInstagram,
     IoLogoGithub,
-    IoLogoDiscord
 } from 'react-icons/io5'
 
 const Page = () => {
