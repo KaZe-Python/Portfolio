@@ -31,7 +31,8 @@ const Work = () => {
                         <span> Flutter, Firebase, Rust(w/Rocket) or Python(w/Django)</span>
                     </ListItem>
                 </List>
-                <WorkImage src="/images/works/stash.jpg" alt="PyWebby"/>
+                <WorkImage src="/images/works/wip.jpg" alt="Stash Image"/>
+
             </Container>
         </Layout>
     )

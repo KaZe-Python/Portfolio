@@ -3,7 +3,7 @@ import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import pywebby from '../public/images/works/pywebby.png'
-import stash from '../public/images/works/stash.jpg'
+import wip from '../public/images/works/wip.jpg'
 
 const Works = () => {
     return (
@@ -19,8 +19,13 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="stash" title="Stash!" thumbnail={stash}>
+                    <WorkGridItem id="stash" title="Stash!" thumbnail={wip}>
                         A user-friendly interface to keep track of objects stored.
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="mercalli-network" title="Mercalli Network" thumbnail={wip}>
+                        Mecalli Network is an internal social network of my HighSchool with multiple functionality
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
